@@ -1,1 +1,1 @@
-console.log("Bismillah");
+console.log("بسم الله الرحمن الرحيم");
