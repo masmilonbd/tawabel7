@@ -63,4 +63,8 @@ function clock() {
   }, 1000);
 }
 
-clock();
+setTimeout(() => {
+  const customTopPage = document.querySelector(".custom-page-top");
+  customTopPage.style.display = "none";
+}, 5000);
+setTimeout(clock(), 200);
